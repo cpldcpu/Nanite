@@ -1,0 +1,19 @@
+Part     Value                         Device                        Package               
+C1       100n                          CAP0805                       0805                 
+D1       3.6V                          DIODE-ZENER-BZT52             SOD-323               
+D2       3.6V                          DIODE-ZENER-BZT52             SOD-323               
+JP1                                    HEADER-1X4ROUND               1X04_ROUND            
+JP2                                    HEADER-1X4ROUND               1X04_ROUND            
+JP4      USB-MICROB-HOLE               USB-MICROB-HOLE               USB-MICROB-HOLES      
+LED1                                   LEDCHIPLED_0805               CHIPLED_0805          
+R1       68                            RESISTOR0805-RES              0805                  
+R2       68                            RESISTOR0805-RES              0805                  
+R3       1k5                           RESISTOR0805-RES              0805                  
+R4       390                           RESISTOR0805-RES              0805                  
+S1       SWITCH-MOMENTARY-2-SMD-1101NE SWITCH-MOMENTARY-2-SMD-1101NE TACTILE-SWITCH-1101NE 
+U6       ATTINY85-SSU                  ATTINY45TINY85-20-SMT         SOIC08           
+
+Notes: 
+- This is not an easy soldering project! Recommended order is: 1) Rear side 2) Front side 3) Headears
+- The USB micro-b socket is a version that come with two alignment pins. It also works without, but is less mechanically stable.
+- The tolerances for mounting of the processor are very tight. Make sure it is aligned properly or you will not be able to install the headers.
